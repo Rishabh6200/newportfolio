@@ -1,0 +1,115 @@
+.resume {
+    height: 90.2vh;
+    background-image: url(../images/bgimg.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    padding: 10px;
+    width: 40%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.214);
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(16px);
+    border-radius: 10px;
+}
+
+.head h2 {
+    color: rgb(30, 25, 25);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.res-box {
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.res-box .space-box {
+    width: 76%;
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(16px);
+    border-radius: 10px;
+    box-shadow: 0 0 5px sienna;
+}
+
+.space-box {
+    display: flex;
+}
+
+.space-box .part-one {
+    width: 50%;
+}
+
+.part-one h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 17px 30px;
+    color: rgb(34, 28, 28);
+}
+
+.part-one .line-one {
+    margin: 25px 0 0 10px;
+    border: 2px solid rgb(75, 0, 94);
+    width: 1px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+
+}
+
+.line-one .c-one {
+    height: 8px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgb(75, 0, 94);
+    position: relative;
+    top: -6px;
+    left: -8px;
+}
+
+.detail-box h3 {
+    font-size: 18px;
+    color: rgb(75, 0, 94);
+}
+
+.pass-date {
+    font-size: 15px;
+    background-color: rgba(240, 248, 255, 0.255);
+    width: 34%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.detail-box p {
+    font-size: 17px;
+    font-style: italic;
+}
+.secClass {
+    margin-top: 10px;
+}
+
+.part-two .line-two {
+    height: 130px;
+    gap: 45px;
+}
+
+.com {
+    color: rgb(75, 0, 94);
+    margin: 5px 20px;
+    gap: 25px;
+}
+.com p{
+    font-style: normal;
+    margin-top: 10px;
+}
