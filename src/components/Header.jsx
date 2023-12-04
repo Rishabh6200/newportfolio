@@ -10,7 +10,7 @@ const Header = () => {
           <p className='p1'>Hello, Everyone</p> <br />
           <p className='p2'>I am Rishabh Chauhan</p>
           <p className='p3'>Web Developer</p>
-          <Link to='/about' className='text-white relative top-20 bg-slate-900 p-3 rounded-md'>About Me &nbsp; <i class="fa-solid fa-arrow-right "></i></Link> 
+          <Link to='/about' className='text-white relative top-20 bg-slate-900 p-3 rounded-md'>About Me &nbsp; <i className="fa-solid fa-arrow-right "></i></Link> 
         </div>
       </div>
     </>
