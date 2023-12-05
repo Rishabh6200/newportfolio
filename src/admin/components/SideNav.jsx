@@ -1,23 +1,26 @@
 import React from 'react'
 import '../assets/css/Sidenav.css'
 import titleImg from '../assets/images/dashboard.png'
+import { Link, Outlet } from 'react-router-dom';
 
 const SideNav = () => {
 
   const title = 'Deshboard';
 
+  const navLink = ['','addskill','eduction']
+
   const dashLink = [
     {
       name: "Home",
-      skillicon : 'fa-solid fa-house-chimney'
+      skillicon: 'fa-solid fa-house-chimney'
     },
     {
       name: "Add Skill",
-      skillicon : 'fa-solid fa-gear'
+      skillicon: 'fa-solid fa-gear'
     },
     {
       name: 'Add Eduction',
-      skillicon: ''
+      skillicon: 'fa-solid fa-user-graduate'
     }
   ]
 
@@ -32,13 +35,12 @@ const SideNav = () => {
         <ul className='dash-links'>
           {dashLink.map((item, i) => (
             <li>
-              <a href="/"> <i className={item.skillicon} style={{ "color": "#ffffff" }}></i>{item.name} </a>
+              <Link to={navLink[i]}> <i className={item.skillicon} style={{ "color": "#ffffff" }}></i>{item.name} </Link>
             </li>
           ))}
-
         </ul>
-
       </nav>
+      <Outlet />
     </>
   )
 }
