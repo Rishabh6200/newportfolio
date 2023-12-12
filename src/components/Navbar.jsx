@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Navbar = () => {
 
     const navData = ['Home', 'About', 'Resume', 'Projects', 'Contact'];
-    const navLink = ['', 'about', 'resume', 'projects', 'contact'];
+    const navLink = ['', 'about', 'resume', 'project', 'contact'];
     const activeClass = ['current'];
     const value = [1,2,3,4,5,6,7,8,9]
     

@@ -1,6 +1,6 @@
 .resume {
     height: 90.2vh;
-    background-image: url(../images/bgimg.jpeg);
+    /* background-image: url(../images/bgimg.jpeg); */
     background-size: 100% 100%;
     background-attachment: fixed;
 }

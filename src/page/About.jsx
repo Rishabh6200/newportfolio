@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/css/About.css'
 import proImg from '../assets/images/mytransperant.png'
-import PageHeading from './PageHeading'
+import PageHeading from '../components/PageHeading'
 
 
 const About = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import PageHeading from '../components/PageHeading'
 import '../assets/css/Contact.css'
-import InputBox from './InputBox'
+import InputBox from '../components/InputBox'
 
 const Contact = () => {
 

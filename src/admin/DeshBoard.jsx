@@ -10,10 +10,10 @@ import AddEdu from './components/AddEdu'
 const DeshBoard = () => {
   return (
     <>
-      <div className='h-screen bg-white'>
+      <div className='h-screen main'>
         <Topnav />
         <div className="ss">
-          <div className="home bg-lime-200 text-blue-950">
+          <div className="home text-blue-950">
             <BrowserRouter>
               <Routes>
                 <Route path='/' element={<SideNav />} >

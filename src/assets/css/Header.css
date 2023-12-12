@@ -1,7 +1,7 @@
 .headers {
     height: 90.3vh;
     width: 100%;
-    background-image: url(../images/bgimg.jpeg);
+    /* background-image: url(../images/bgimg.jpeg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;

@@ -10,7 +10,7 @@ const SideNav = () => {
   const navLink = ['','addskill','eduction']
 
   const dashLink = [
-    {
+    {    
       name: "Home",
       skillicon: 'fa-solid fa-house-chimney'
     },
@@ -35,7 +35,7 @@ const SideNav = () => {
         <ul className='dash-links'>
           {dashLink.map((item, i) => (
             <li>
-              <Link to={navLink[i]}> <i className={item.skillicon} style={{ "color": "#ffffff" }}></i>{item.name} </Link>
+              <Link to={navLink[i]} key={i}> <i className={item.skillicon} style={{ "color": "#ffffff" }}></i>{item.name} </Link>
             </li>
           ))}
         </ul>
